@@ -7,7 +7,7 @@
 ### 使用
 下载[FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/latest)并设置环境变量(ffmpeg/bin)
 
-注意：图片尺寸不要过大，保持在小于1MB，高度小于1080px
+注意：png图片尺寸不要过大，保持在1MB - 2MB
 
 Scoop:
 ```
@@ -18,18 +18,12 @@ scoop install ffmpeg
 
 ### 构建
 安装
-[CMake](https://cmake.org/download/)
-
 
 [Rustup](https://rustup.rs/)
-
-
-[LLVM](https://releases.llvm.org/download.html)
-
 
 [C++ 构建工具](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 
 Scoop:
 ```
-scoop install cmake rustup llvm
+scoop install rustup
 ```
